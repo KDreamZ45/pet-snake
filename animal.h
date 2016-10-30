@@ -16,7 +16,7 @@ class Cat: public Animal
 public:
     void back_shit_off_table()
     {
-        cout << "Maintains eye contact. Asserts dominance." << endl;
+        cout << "Maintains eye contact. Asserts dominance. " << endl;
     }
 };
 
