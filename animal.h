@@ -34,7 +34,7 @@ class Snake: public Animal
 public:
     void snek()
     {
-        cout << "snek snek snek" << endl;
+        cout << "Snek snek snek" << endl;
     }
 };
 
