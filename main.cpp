@@ -4,7 +4,6 @@
 #include"animal.h"
 #include"plant.h"
 #include"rock.h"
-
 using namespace std;
 
 int main(void)
