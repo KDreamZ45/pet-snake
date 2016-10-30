@@ -8,7 +8,7 @@ class Animal: public Pet
 {
 private:
     char gender;
-    bool type; // Indoor or Outdoor?
+    bool type;
 };
 
 class Cat: public Animal
