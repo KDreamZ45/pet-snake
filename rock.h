@@ -3,9 +3,8 @@
 #include "pet.h"
 using namespace std;
 
-class pet;
-
-class rock: public pet
+class Pet;
+class Rock: public Pet
 {
 private:
     int hardness;
@@ -14,10 +13,8 @@ private:
     string ChemicalComp;
 };
 
-class fornacite: public rock {};
-
-class fukalite: public rock {};
-
-class cummingtonite: public rock {};
+class Fornacite: public Rock {};
+class Fukalite: public Rock {};
+class Cummingtonite: public Rock {};
 
 #endif

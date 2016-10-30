@@ -3,16 +3,15 @@
 #include "pet.h"
 using namespace std;
 
-class pet;
-
-class animal: public pet
+class Pet;
+class Animal: public Pet
 {
 private:
     char gender;
     bool type; // Indoor or Outdoor?
 };
 
-class cat: public animal
+class Cat: public Animal
 {
 public:
     void back_shit_off_table()
@@ -21,7 +20,7 @@ public:
     }
 };
 
-class dog: public animal
+class Dog: public Animal
 {
 public:
     void eat_poop()
@@ -30,7 +29,7 @@ public:
     }
 };
 
-class snake: public animal
+class Snake: public Animal
 {
 public:
     void snek()

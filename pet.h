@@ -3,22 +3,21 @@
 #include "pet.cpp"
 using namespace std;
 
-class animal;
-class plant;
-class rock;
-
-class person
+class Animal;
+class Plant;
+class Rock;
+class Person
 {
-private:
-    int name;
+	private:
+		int name;
 };
 
-class pet
+class Pet
 {
-private:
-    string name;
-    int age;
-    Person owner;
+	private:
+    		string name;
+    		int age;
+    		Person owner;
 };
 
 #endif

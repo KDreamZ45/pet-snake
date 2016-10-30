@@ -3,15 +3,14 @@
 #include "pet.h"
 using namespace std;
 
-class pet;
-
-class plant: public pet
+class Pet;
+class Plant: public Pet
 {
 private:
     int greenness;
 };
 
-class fern: public plant
+class Fern: public Plant
 {
 public:
     void fernicate()
@@ -20,7 +19,7 @@ public:
     }
 };
 
-class cactus: public plant
+class Cactus: public Plant
 {
 public:
     void poke()
